@@ -13,6 +13,6 @@ export default {
 
 <style>
     .component {
-        width: 50%;
+        width: 40%;
     }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div class="component">
-    <label>Name input</label>
+    <label for="name">Name input</label>
     <input name="name" v-model="name" @input="updateData">
-    <label>Age input</label>
+    <label for="name">Age input</label>
     <input name="age" v-model="age" @input="updateData">
   </div>
 </template>
@@ -27,6 +27,8 @@ export default {
 
 <style>
   .component {
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
   }
 </style>
